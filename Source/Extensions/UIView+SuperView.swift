@@ -9,7 +9,7 @@
 import UIKit
 
 extension UIView {
-    var topSuperview: UIView? {
+    public var topSuperview: UIView? {
         var view = superview
         while view?.superview != nil {
             view = view!.superview

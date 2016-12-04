@@ -67,4 +67,8 @@ final public class HideKeyboardTapGestureManager: NSObject {
             }
         }
     }
+    
+    public func removeAllTargets() {
+        remove(targets: targets)
+    }
 }
