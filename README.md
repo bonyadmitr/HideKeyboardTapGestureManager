@@ -17,13 +17,14 @@
 - [Features](#features)
 - [Requirements](#requirements)
 - [Installation](#installation)
-	- [CocoaPods](#CocoaPods)
-	- [Carthage](#Carthage)
-	- [Manually](#Manually)
+	- [CocoaPods](#cocoapods)
+	- [Carthage (code only)](#carthage-code-only)
+	- [Manually](#manually)
 - [Usage](#usage)
-- [User Iteraction Enabled](#User-Iteraction-Enabled)
-- [Code usage](#Code-usage)
-- [Xib support](#Xib-support)
+- [User Iteraction Enabled](#user-iteraction-enabled)
+- [Code usage](#code-usage)
+- [Xib support](#xib-support)
+- [To do](#to-do)
 - [License](#license)
 
 ## Features
@@ -78,10 +79,12 @@ Close 'Your Target Name'.**xcodeproj** and open 'Your Target Name'.**xcworkspace
 
 </details>
 
-### Carthage
+### Carthage (code only)
+
+HideKeyboardTapGestureManager cannot be used in IB due `.framework` issue. See [Code usage](#Code-usage) section.
 
 ```ruby
-github "HideKeyboardTapGestureManager/HideKeyboardTapGestureManager" ~> 1.0
+github "bonyadmitr/HideKeyboardTapGestureManager" ~> 1.0
 ```
 
 <details>
@@ -99,7 +102,7 @@ $ brew install carthage
 To integrate **HideKeyboardTapGestureManager** into your Xcode project using Carthage, create file `Cartfile` with content:
 
 ```ruby
-github "HideKeyboardTapGestureManager/HideKeyboardTapGestureManager" ~> 1.0
+github "bonyadmitr/HideKeyboardTapGestureManager" ~> 1.0
 ```
 
 Run `carthage update` to build the framework and drag the built `HideKeyboardTapGestureManager.framework` into your Xcode project.
@@ -164,6 +167,7 @@ or remove old ones:
 
 ```swift
 hideKeyboardTapGestureManager.remove(targets: [someView2])
+hideKeyboardTapGestureManager.removeAllTargets()
 ```
 
 ## Xib support
@@ -175,6 +179,13 @@ To use with xib you must add strong property to controller:
 ```
 
 > Otherwise it will be deinited. It is logic of Objects in xibs.
+
+## To do
+
+- [x] Add example
+- [ ] Add tests
+- [ ] Add comments
+- [ ] Add CI
 
 ## License
 
