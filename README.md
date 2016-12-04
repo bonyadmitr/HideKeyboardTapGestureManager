@@ -182,7 +182,7 @@ To use with xib you must add strong property to controller:
 
 ## To do
 
-- [ ] Add example
+- [x] Add example
 - [ ] Add tests
 - [ ] Add comments
 - [ ] Add CI
