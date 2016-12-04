@@ -1,6 +1,6 @@
 # HideKeyboardTapGestureManager
 
-![icon](/Users/zdaecqzezdaecq/Downloads/HideKeyboardTapGestureManager/keyboard_icon.png)
+![Icon](Resources/keyboard_icon.png)
 
 [![Language](https://img.shields.io/badge/Swift-3.0+-orange.svg)](https://developer.apple.com/swift/)
 [![CocoaPods Compatible](https://img.shields.io/cocoapods/v/HideKeyboardTapGestureManager.svg)](https://cocoapods.org/)
@@ -10,24 +10,21 @@
 
 **HideKeyboardTapGestureManager** - easy to use, codeless manager to hide keyboard by tapping on views for iOS written in Swift.
 
-![preview](/Users/zdaecqzezdaecq/Downloads/HideKeyboardTapGestureManager/preview.png)
+![preview](Resources/preview.png)
 
 ## Structure
 
 - [Features](#features)
 - [Requirements](#requirements)
-
 - [Installation](#installation)
 	- [CocoaPods](#CocoaPods)
 	- [Carthage](#Carthage)
 	- [Manually](#Manually)
-
 - [Usage](#usage)
 - [User Iteraction Enabled](#User-Iteraction-Enabled)
 - [Code usage](#Code-usage)
 - [Xib support](#Xib-support)
 - [License](#license)
-
 
 ## Features
 
@@ -119,21 +116,21 @@ Drag `HideKeyboardTapGestureManager` folder in your project
 
 - 1. Drag Object from Object library
 
-![usage_1](/Users/zdaecqzezdaecq/Downloads/HideKeyboardTapGestureManager/usage_1.png)
+![usage_1](Resources/usage_1.png)
 
 - 2. Setup `HideKeyboardTapGestureManager` in Class field
 
-![usage_2](/Users/zdaecqzezdaecq/Downloads/HideKeyboardTapGestureManager/usage_2.png)
+![usage_2](Resources/usage_2.png)
 
  - 3. Connect views with `targets`
 
-![usage_3](/Users/zdaecqzezdaecq/Downloads/HideKeyboardTapGestureManager/usage_3.png)
+![usage_3](Resources/usage_3.png)
 
 ## User Iteraction Enabled
 
 Target must be UIView subclass and user iteraction enabled is on. You can set it in IB in View section: (example for UILabel)
 
-![user_iteraction_enabled](/Users/zdaecqzezdaecq/Downloads/HideKeyboardTapGestureManager/user_iteraction_enabled.png)
+![user_iteraction_enabled](Resources/user_iteraction_enabled.png)
 
 or in code:
 
