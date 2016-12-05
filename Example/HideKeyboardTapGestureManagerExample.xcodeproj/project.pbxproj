@@ -72,9 +72,9 @@
 		7BA035E31DF4B9930024A828 = {
 			isa = PBXGroup;
 			children = (
-				7BA036011DF4BA9D0024A828 /* HideKeyboardTapGestureManager.xcodeproj */,
 				7BA035EE1DF4B9930024A828 /* HideKeyboardTapGestureManagerExample */,
 				7BA035ED1DF4B9930024A828 /* Products */,
+				7BA036011DF4BA9D0024A828 /* HideKeyboardTapGestureManager.xcodeproj */,
 			);
 			sourceTree = "<group>";
 		};
