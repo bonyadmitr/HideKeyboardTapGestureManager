@@ -41,7 +41,7 @@ final public class HideKeyboardTapGestureManager: NSObject {
         if targets.count == 0 {
             return
         }
-        targets[0].superview?.endEditing(true)
+        targets.first?.topSuperview?.endEditing(true)
     }
     
     // MARK: - Public
