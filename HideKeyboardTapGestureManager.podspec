@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name                  = 'HideKeyboardTapGestureManager'
-    s.version               = '1.1.0'
+    s.version               = '1.1.1'
     s.summary               = 'Easy to use, codeless manager to hide keyboard by tapping on views for iOS written in Swift.'
     s.homepage              = 'https://github.com/bonyadmitr/HideKeyboardTapGestureManager'
     s.author                = { 'Bondar Yaroslav' => 'bonyadmitr@gmail.com' }
