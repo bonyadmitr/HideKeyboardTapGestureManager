@@ -8,6 +8,6 @@ Pod::Spec.new do |s|
     s.ios.deployment_target = '8.0'
     s.source                = {:git => 'https://github.com/bonyadmitr/HideKeyboardTapGestureManager.git', :tag => "#{s.version}" }
     s.source_files          = 'Source/**/*.swift'
-    s.screenshots      		= 'https://github.com/bonyadmitr/HideKeyboardTapGestureManager/blob/develop/Resources/keyboard_icon.png?raw=true',
-    						  'https://github.com/bonyadmitr/HideKeyboardTapGestureManager/blob/develop/Resources/preview.png?raw=true'
+    s.screenshots           = 'https://raw.githubusercontent.com/bonyadmitr/HideKeyboardTapGestureManager/master/Resources/keyboard_icon.png',
+                              'https://raw.githubusercontent.com/bonyadmitr/HideKeyboardTapGestureManager/master/Resources/preview.png'
 end
