@@ -1,5 +1,7 @@
 # HideKeyboardTapGestureManager
 
+Use https://github.com/bonyadmitr/KeyboardHideManager. This one is depricated and will be deleted soon.
+
 ![Icon](Resources/keyboard_icon.png)
 
 [![Language](https://img.shields.io/badge/Swift-3.0+-orange.svg)](https://developer.apple.com/swift/)
