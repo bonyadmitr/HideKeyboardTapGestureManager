@@ -1,6 +1,6 @@
 # HideKeyboardTapGestureManager
 
-Use https://github.com/bonyadmitr/KeyboardHideManager. This one is depricated and will be deleted soon.
+Use https://github.com/bonyadmitr/KeyboardHideManager. This one is deprecated and will be deleted soon.
 
 ![Icon](Resources/keyboard_icon.png)
 
